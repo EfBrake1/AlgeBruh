@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to bottom right, blue, pink);
+    height: 765px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
+button{
+    background-color: aqua;
+    color: darkmagenta;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+button:hover{
+    background-color: darkmagenta;
+    color: aqua;
+}
+select{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px 20px 20px 0;
+}
+.p2{
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
