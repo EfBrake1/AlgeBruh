@@ -1,5 +1,5 @@
-document.querySelector(".value").onclick = function(){
+const currentYear = new Date().getFullYear();
+document.querySelector(".value").onclick = function () {
     let userNumber = parseInt(document.querySelector(".data").value);
-    let number2 = 2023;
-    alert("Вам " + (number2 - userNumber));
+    alert("Вам " + (currentYear - userNumber));
 };
